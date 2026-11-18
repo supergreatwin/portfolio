@@ -182,7 +182,5 @@ body.modal-open { overflow: hidden; }
 .analytics-actions { display: flex; flex-wrap: wrap; gap: .5rem; margin-top: 1rem; }
 .analytics-actions button, .analytics-settings { padding: .45rem .75rem; font: inherit; color: #2d2023; background: #f8f4ec; border: 1px solid #67485a; border-radius: .25rem; cursor: pointer; }
 
-/* abdelrahman. Creative Studio identity project */
-.creative-studio { color:#242426; background-color:#f3f1ec; background-image:repeating-linear-gradient(60deg,transparent 0 28px,#ebe5dd 29px 31px,transparent 32px 58px); }
-.creative-studio .visual {background:#f3f1ecde;padding:15px 20px;max-width:100%;}
-.creative-studio .big {font-family:Georgia,Times,serif;font-weight:400;letter-spacing:-.055em;overflow-wrap:anywhere;font-size:clamp(31px,4.1vw,62px);}
+/* Creative Studio uses the same flat-color visual treatment as the other project cards. */
+.creative-studio { background: #e9ded3; color: #423333; }
